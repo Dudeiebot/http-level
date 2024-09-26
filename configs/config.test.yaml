@@ -1,0 +1,12 @@
+app:
+  debug: true
+modules:
+  log:
+    level: debug
+    output: test
+  trace:
+    processor:
+      type: test
+  orm:
+    driver: sqlite
+    dsn: ":memory:"
